@@ -3,7 +3,18 @@
   gap: 10px;
 }
 
-.line {
-  height: 20px;
+.lines-container {
+  display: flex;
+  flex-direction: column;
 }
 
+.line {
+  margin-bottom: 5px;
+  height: 25px;
+  width: fit-content;
+  display: inline-block;
+}
+
+.line:hover {
+  background-color: lightgray;
+}
